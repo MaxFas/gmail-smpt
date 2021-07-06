@@ -39,7 +39,7 @@ app.post('/sendMessage', async function (req, res) {
                         contact: ${contact}
                     </div>
                     <div>
-                        message ${message}
+                        message: ${message}
                     </div>`,
     });
     res.send('Your Message')
